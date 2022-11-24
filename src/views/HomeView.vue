@@ -13,7 +13,7 @@ export default {
     async getWheater() {
       axios
         .get(
-          `http://api.weatherapi.com/v1/current.json?key=9ffdb31fe509472f946205835223010&q=${this.cidadeSelecionada}&aqi=no`
+          `http://api.weatherapi.com/v1/current.json?key= 699dc7b3708143ebac3120657222411&q=${this.cidadeSelecionada}&aqi=no`
         )
         .then((res) => {
           console.log(res.data);

@@ -15,7 +15,7 @@ export default {
 
 <template>
   <div class="flex justify-center">
-    <div class="w-1/2 bg-white rounded-lg shadow-lg p-6 m-4">
+    <div class="w-96 bg-white rounded-lg shadow-lg p-6 m-4">
       <!-- create a header -->
       <div class="flex justify-between items-center">
         <h1 class="text-2xl font-bold">
